@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box {
+			width: 100px;
+			height: 100px;
+			-moz-animation: rainbow 5s; /* Firefox */
+		}
+
+		@-moz-keyframes rainbow {
+			0% {
+				background-color: #f40;
+			}
+			16% {
+				background-color: #FF6100;
+			}
+			33% {
+				background-color: #FF0;
+			}
+			50% {
+				background-color: #0F0;
+			}
+			66% {
+				background-color: #00F;
+			}
+			83% {
+				background-color: #0FF;
+			}
+			100% {
+				background-color: #A020F0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
